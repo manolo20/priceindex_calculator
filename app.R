@@ -9,8 +9,8 @@ library(ggplot2)
 library(plotly)
 
 
-cpical <- readRDS("/home/atai/Documents/R_projects/personal_calculator/cpicalc.rds")
-cal <- readRDS("/home/atai/Documents/R_projects/personal_calculator/calculator.rds")
+cpical <- readRDS("./data/cpicalc.rds")
+cal <- readRDS("./data/calculator.rds")
 cal<-cal %>% select(-Items)
 
 
