@@ -21,4 +21,4 @@ pkgs_needed <- pkgs[!(pkgs %in% installed.packages()[,"Package"])]
 if(length(pkgs_needed)) install.packages(pkgs_needed)
 
 ## Run app from Github repo
-shiny::runGitHub('manolo20/priceindex_calculator') '''
+shiny::runGitHub('manolo20/priceindex_calculator') 
